@@ -71,7 +71,7 @@ body{
 
 }
 .event-item {
-    margin-left: 40px;
+    margin-left: 20rem;
     list-style-type: none
     text-align: justify;
     text-indent: 20px;
@@ -79,9 +79,9 @@ body{
 
 }
 .sidebar a.active {
-    color: black;
+    color: rgb(15, 15, 15);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     color: rgb(42, 165, 63);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
@@ -92,17 +92,17 @@ body{
     list-style-type: none;
 } 
 .parrafo1{
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-family: "Lucida Sans";
     font-weight: bold;
-    margin-left: -6rem;
+    margin-left: 12rem;
     
 }
 .parrafo2{
     margin-top:  3rem;
     font-family: "Lucida Sans";
     font-weight: bold;
-    margin-left: -6rem;
+    margin-left: 12rem;
 
 }
     
@@ -116,4 +116,10 @@ body{
     color: rgb(165, 46, 42);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
+}
+
+h3{
+    margin-top:  5rem;
+    margin-left: 17rem;
+
 }
