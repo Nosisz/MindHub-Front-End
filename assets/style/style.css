@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../images/design1_image1.jpg);
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0rem;
+    padding: 0rem;
+    border: 2px solid rgb(15, 15, 14);
+}
+header> h1 {
+    
+    display:inline-block;
+    color: rgb(12, 14, 1);
+    text-shadow: 2px 2px 4px rgba(240, 212, 212, 0.5);
+    text-align: center;
+    font-size: 45px;
+    font-family: "Lucida Sans";
+}
+h2 {
+    color: white;
+  background-color: black;
+    border: 2px solid rgb(255, 17, 0);
+    padding: 5px;
+    margin-top: 13.1rem;
+    text-align: center;
+    border-radius: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(14, 1, 1, 0.5);
+    }
+.my-figure{
+    margin-top: -8.6rem;
+    padding-left: 49rem;
+    
+}
+
+
+body{
+    margin:2rem;
+}
+
+.container {
+    display: flex;
+    
+}
+.sidebar{
+    flex: 0 0 250px;
+    font-family: "Lucida Sans";
+    
+    
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+.sidebar li{
+    margin-bottom: 110px;
+}
+.event{
+    margin-bottom: 80px;
+    font-family: "Lucida Sans";
+    text-indent: 40px;
+
+
+}
+.event-item {
+    margin-left: 40px;
+    list-style-type: none
+    text-align: justify;
+    text-indent: 20px;
+    
+
+}
+.sidebar a.active {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(42, 165, 63);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    
+
+}
+.mi-lista{
+    list-style-type: none;
+} 
+.parrafo1{
+    margin-top: 1rem;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+    margin-left: -6rem;
+    
+}
+.parrafo2{
+    margin-top:  3rem;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+    margin-left: -6rem;
+
+}
+    
+.active2{
+    color: rgb(165, 46, 42);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    
+}
+.active3{
+    color: rgb(165, 46, 42);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
